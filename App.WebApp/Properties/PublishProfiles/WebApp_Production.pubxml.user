@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA1iZ5TyyZRUG8abgE7tBvVAAAAAACAAAAAAAQZgAAAAEAACAAAADZurUvCm2biV4EOdkA+wsrhOrMHBA9cx3jjUo6jMSFkQAAAAAOgAAAAAIAACAAAAAYjWGfWQNtQOLmb1tJ/3skL73yEYORSeeA5lTFNeKqzyAAAAAVTAgPXcvsN0YXGX09k964c1cD0ALZwGZ7sa8lVuJuG0AAAACKu408Q1ZNvTpKKWK2A7+9n3kUjzTLAv5uDqpJKwHEvql0dY/BWVK6vQynBKyexruq4Fjnh8LTggZvimWaFoC8</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App/durandal/amd/almond-custom.js">
+      <publishTime>03/11/2013 21:14:19</publishTime>
+    </File>
+    <File Include="App/durandal/amd/optimizer.exe">
+      <publishTime>03/11/2013 21:14:18</publishTime>
+    </File>
+    <File Include="App/durandal/amd/r.js">
+      <publishTime>03/11/2013 21:14:18</publishTime>
+    </File>
+    <File Include="App/durandal/amd/require.js">
+      <publishTime>03/11/2013 21:14:18</publishTime>
+    </File>
+    <File Include="App/durandal/amd/text.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/app.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/composition.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/events.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/http.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/messageBox.html">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/messageBox.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/modalDialog.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/plugins/router.js">
+      <publishTime>03/11/2013 21:14:19</publishTime>
+    </File>
+    <File Include="App/durandal/system.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/transitions/entrance.js">
+      <publishTime>03/11/2013 21:14:19</publishTime>
+    </File>
+    <File Include="App/durandal/viewEngine.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/viewLocator.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/viewModel.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/viewModelBinder.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/durandal/widget.js">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="App/main-built.js">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="App/main.js">
+      <publishTime>03/11/2013 23:45:14</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsDirectory.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsDirectory.model.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsReview.animation.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsReview.binding.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsReview.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/albumsReview.model.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/artistsDirectory.js">
+      <publishTime>03/16/2013 15:12:13</publishTime>
+    </File>
+    <File Include="App/viewmodels/artistsDirectory.model.js">
+      <publishTime>03/12/2013 00:18:17</publishTime>
+    </File>
+    <File Include="App/viewmodels/datacontext.js">
+      <publishTime>03/17/2013 14:01:33</publishTime>
+    </File>
+    <File Include="App/viewmodels/flickr.js">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="App/viewmodels/home.js">
+      <publishTime>03/12/2013 00:07:18</publishTime>
+    </File>
+    <File Include="App/viewmodels/myPage.js">
+      <publishTime>03/12/2013 00:01:44</publishTime>
+    </File>
+    <File Include="App/viewmodels/shell.js">
+      <publishTime>03/11/2013 23:40:40</publishTime>
+    </File>
+    <File Include="App/viewmodels/viewsRenderer.js">
+      <publishTime>03/11/2013 23:12:32</publishTime>
+    </File>
+    <File Include="App/viewmodels/welcome.js">
+      <publishTime>03/11/2013 23:10:25</publishTime>
+    </File>
+    <File Include="App/views/albumsDirectory.html">
+      <publishTime>03/11/2013 23:13:10</publishTime>
+    </File>
+    <File Include="App/views/albumsReview.html">
+      <publishTime>03/11/2013 23:13:10</publishTime>
+    </File>
+    <File Include="App/views/artistsDirectory.html">
+      <publishTime>03/11/2013 23:13:19</publishTime>
+    </File>
+    <File Include="App/views/detail.html">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="App/views/flickr.html">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="App/views/home.html">
+      <publishTime>03/12/2013 00:07:25</publishTime>
+    </File>
+    <File Include="App/views/myPage.html">
+      <publishTime>03/12/2013 00:02:00</publishTime>
+    </File>
+    <File Include="App/views/shell.html">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="App/views/welcome.html">
+      <publishTime>03/11/2013 21:14:21</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>03/11/2013 21:14:06</publishTime>
+    </File>
+    <File Include="bin/App.WebApp.dll">
+      <publishTime>03/17/2013 14:20:55</publishTime>
+    </File>
+    <File Include="bin/App.WebApp.pdb">
+      <publishTime>03/17/2013 14:20:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>08/04/2012 13:48:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Mvc.FixedDisplayModes.dll">
+      <publishTime>03/11/2013 21:08:45</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/11/2013 21:08:42</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/20/2012 20:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/20/2012 20:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/20/2012 20:56:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>03/11/2013 21:14:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/20/2012 20:56:02</publishTime>
+    </File>
+    <File Include="bin/WebActivator.dll">
+      <publishTime>03/11/2013 21:14:06</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>03/11/2013 21:14:06</publishTime>
+    </File>
+    <File Include="Content/app.css">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.css">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.min.css">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/durandal.css">
+      <publishTime>03/11/2013 21:14:17</publishTime>
+    </File>
+    <File Include="Content/font-awesome-ie7.min.css">
+      <publishTime>03/11/2013 21:14:15</publishTime>
+    </File>
+    <File Include="Content/font-awesome.css">
+      <publishTime>03/11/2013 21:14:15</publishTime>
+    </File>
+    <File Include="Content/font-awesome.min.css">
+      <publishTime>03/11/2013 21:14:15</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.eot">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.svg">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.ttf">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Content/font/fontawesome-webfont.woff">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Content/font/FontAwesome.otf">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Content/ie10mobile.css">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings-white.png">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings.png">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Content/images/icon.png">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Content/images/ios-startup-image-landscape.png">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Content/images/ios-startup-image-portrait.png">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/11/2013 21:08:37</publishTime>
+    </File>
+    <File Include="Images/accent.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/Add.png">
+      <publishTime>01/12/2013 23:33:34</publishTime>
+    </File>
+    <File Include="Images/ajax-loader.gif">
+      <publishTime>12/13/2012 00:51:01</publishTime>
+    </File>
+    <File Include="Images/ajax_loader_page.gif">
+      <publishTime>01/06/2013 13:54:57</publishTime>
+    </File>
+    <File Include="Images/Artist/acdc.jpg">
+      <publishTime>01/04/2013 17:18:37</publishTime>
+    </File>
+    <File Include="Images/Artist/foofighter.jpg">
+      <publishTime>01/04/2013 17:17:58</publishTime>
+    </File>
+    <File Include="Images/Artist/jackwhite.jpg">
+      <publishTime>01/04/2013 17:17:19</publishTime>
+    </File>
+    <File Include="Images/Artist/ledzepellin.jpg">
+      <publishTime>01/04/2013 17:16:41</publishTime>
+    </File>
+    <File Include="Images/Artist/linkinpark.jpg">
+      <publishTime>01/04/2013 17:15:49</publishTime>
+    </File>
+    <File Include="Images/Artist/paparoach.jpg">
+      <publishTime>02/09/2013 22:52:41</publishTime>
+    </File>
+    <File Include="Images/Artist/tenaciousd.jpg">
+      <publishTime>01/04/2013 17:14:55</publishTime>
+    </File>
+    <File Include="Images/Artist/thebeatles.jpg">
+      <publishTime>01/04/2013 17:14:10</publishTime>
+    </File>
+    <File Include="Images/Artist/whitestripes.jpg">
+      <publishTime>02/09/2013 19:34:31</publishTime>
+    </File>
+    <File Include="Images/aspNetHome.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/bullet.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/Covers/abbeyroad.jpg">
+      <publishTime>11/02/2012 14:12:12</publishTime>
+    </File>
+    <File Include="Images/Covers/backinblack.jpg">
+      <publishTime>02/08/2013 00:19:56</publishTime>
+    </File>
+    <File Include="Images/Covers/blunderbuss.jpg">
+      <publishTime>12/09/2012 20:24:15</publishTime>
+    </File>
+    <File Include="Images/Covers/elephant.jpg">
+      <publishTime>02/09/2013 19:36:11</publishTime>
+    </File>
+    <File Include="Images/Covers/getbehindmesatan.jpg">
+      <publishTime>02/09/2013 19:37:04</publishTime>
+    </File>
+    <File Include="Images/Covers/highvoltage.jpg">
+      <publishTime>02/08/2013 00:20:43</publishTime>
+    </File>
+    <File Include="Images/Covers/highwaytohell.jpg">
+      <publishTime>02/08/2013 00:15:43</publishTime>
+    </File>
+    <File Include="Images/Covers/inyourhonor.jpg">
+      <publishTime>01/27/2013 18:30:21</publishTime>
+    </File>
+    <File Include="Images/Covers/letthereberock.jpg">
+      <publishTime>02/08/2013 00:14:12</publishTime>
+    </File>
+    <File Include="Images/Covers/liveatriverplate.jpg">
+      <publishTime>02/08/2013 00:12:11</publishTime>
+    </File>
+    <File Include="Images/Covers/livingthings.jpg">
+      <publishTime>10/26/2012 13:30:44</publishTime>
+    </File>
+    <File Include="Images/Covers/meteora.jpg">
+      <publishTime>01/27/2013 18:31:48</publishTime>
+    </File>
+    <File Include="Images/Covers/onebyone.jpg">
+      <publishTime>01/27/2013 18:28:31</publishTime>
+    </File>
+    <File Include="Images/Covers/paparoach.jpg">
+      <publishTime>02/09/2013 22:53:49</publishTime>
+    </File>
+    <File Include="Images/Covers/physicalgraffiti.jpg">
+      <publishTime>12/09/2012 20:26:41</publishTime>
+    </File>
+    <File Include="Images/Covers/powerrage.jpg">
+      <publishTime>02/08/2013 00:21:43</publishTime>
+    </File>
+    <File Include="Images/Covers/riseofthefenix.jpg">
+      <publishTime>10/26/2012 13:31:46</publishTime>
+    </File>
+    <File Include="Images/Covers/wastinglight.jpg">
+      <publishTime>11/02/2012 14:05:44</publishTime>
+    </File>
+    <File Include="Images/delete.png">
+      <publishTime>01/12/2013 23:33:22</publishTime>
+    </File>
+    <File Include="Images/facebook.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/glyphicons-halflings-white.png">
+      <publishTime>01/15/2013 21:34:12</publishTime>
+    </File>
+    <File Include="Images/glyphicons-halflings.png">
+      <publishTime>01/15/2013 21:34:12</publishTime>
+    </File>
+    <File Include="Images/heroAccent.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/NextAlbumButtom.png">
+      <publishTime>10/25/2012 12:17:00</publishTime>
+    </File>
+    <File Include="Images/orderedList0.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList1.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList2.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList3.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList4.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList5.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList6.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList7.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList8.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/orderedList9.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="Images/PreviousAlbumButtom.png">
+      <publishTime>10/25/2012 12:16:16</publishTime>
+    </File>
+    <File Include="Images/Rate.jpg">
+      <publishTime>10/25/2012 13:12:26</publishTime>
+    </File>
+    <File Include="Images/twitter.png">
+      <publishTime>08/04/2012 13:48:06</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/11/2013 21:14:22</publishTime>
+    </File>
+    <File Include="readme.md">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/11/2013 21:14:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>03/11/2013 21:14:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>03/11/2013 21:14:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>03/11/2013 21:14:14</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.1.debug.js">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.1.js">
+      <publishTime>03/11/2013 21:14:16</publishTime>
+    </File>
+    <File Include="Scripts/knockout.mapping.js">
+      <publishTime>02/07/2013 21:34:55</publishTime>
+    </File>
+    <File Include="Scripts/sammy-0.7.4.js">
+      <publishTime>03/11/2013 21:14:19</publishTime>
+    </File>
+    <File Include="Scripts/sammy-0.7.4.min.js">
+      <publishTime>03/11/2013 21:14:19</publishTime>
+    </File>
+    <File Include="Scripts/toastr.js">
+      <publishTime>01/18/2013 22:31:01</publishTime>
+    </File>
+    <File Include="Views/Durandal/Index.cshtml">
+      <publishTime>03/14/2013 21:23:12</publishTime>
+    </File>
+    <File Include="Views/Durandal/_splash.cshtml">
+      <publishTime>03/11/2013 21:14:20</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/11/2013 21:08:37</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/17/2013 14:21:27</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
