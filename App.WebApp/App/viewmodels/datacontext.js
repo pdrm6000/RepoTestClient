@@ -1,6 +1,6 @@
 ﻿define("viewmodels/datacontext", [], function () {
 
-    var urlBase = "http://localhost/AppUI/api/";
+    var urlBase = "http://apptest-7.apphb.com/api/";
 
     $(document).ajaxError(function (event, jqxhr, settings, exception) {
         if (settings.url == "ajax/missing.html") {
@@ -25,7 +25,7 @@
                 alert('Error: ' + textStatus);
             }
         });
-    },
+    ,
     downloadArtist = function (action) {
         return $.ajax({
             url: urlBase + "ArtistsRest/" + action,
