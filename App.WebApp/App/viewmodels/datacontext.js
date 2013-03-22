@@ -21,11 +21,11 @@
             url: urlBase + "AlbumsRest/" + action,
             accepts: "application/json",
             cache: false,
-            error: function (XMLHttpRequest, textStatus, errorThrown) {
+            error: function(XMLHttpRequest, textStatus, errorThrown) {
                 alert('Error: ' + textStatus);
             }
         });
-    ,
+    },
     downloadArtist = function (action) {
         return $.ajax({
             url: urlBase + "ArtistsRest/" + action,
