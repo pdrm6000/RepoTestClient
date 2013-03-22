@@ -84,3 +84,11 @@ D:\Proyectos\AppTestWeb\App.WebApp\bin\System.Web.WebPages.Deployment.xml
 D:\Proyectos\AppTestWeb\App.WebApp\bin\System.Web.WebPages.Razor.xml
 D:\Proyectos\AppTestWeb\App.WebApp\obj\Debug\App.WebApp.dll
 D:\Proyectos\AppTestWeb\App.WebApp\obj\Debug\App.WebApp.pdb
+D:\Proyectos\AppTestWeb\App.WebApp\bin\Antlr3.Runtime.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\Newtonsoft.Json.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\System.Web.Optimization.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\WebActivator.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\WebGrease.dll
+D:\Proyectos\AppTestWeb\App.WebApp\bin\Newtonsoft.Json.xml
+D:\Proyectos\AppTestWeb\App.WebApp\obj\Debug\App.WebApp.csprojResolveAssemblyReference.cache
