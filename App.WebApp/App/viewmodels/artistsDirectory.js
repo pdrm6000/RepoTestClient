@@ -31,7 +31,7 @@
             return datacontext.downloadAllArtists().then(processArtistsDownloaded);
         },
         processArtistsDownloaded = function (data) {
-            ko.utils.arrayPushAll(artistModel.artistsCollection, data);
+            ko.utils.arrayPushAll(artistModel.artistsCollection, $.parseJSON(data));
             //artistEffects();
             artistModel.isLoading(false);
         },
